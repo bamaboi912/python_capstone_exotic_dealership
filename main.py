@@ -244,6 +244,37 @@ SELECT * FROM CUSTOMER_INFORMATION;
 """
 
 
+update_secondCoupe_mileage = """
+update COUPE_MODELS
+SET mileage = 8888
+where vin_number = '123abc322'
+"""
+
+update_forthCoupe_mileage = """
+update SUV_MODELS
+SET mileage = 4444 
+where vin_number = '123abc324'
+"""
+
+Update_second_regional_manager = """
+update DIRECTORY_INFORMATION
+SET salary = 116599
+where employees_ID = '58644'
+"""
+
+Update_third_mechanic = """
+update DIRECTORY_INFORMATION
+SET salary = 76444
+where employees_ID = '58614'
+"""
+
+remove_second_to_last_person  = """
+DELETE FROM DIRECTORY_INFORMATION
+WHERE   employees_ID = '58615';"""
+
+remove_eighthSedan_vehicle = """
+DELETE FROM SEDAN_MODELS
+WHERE   vin_number = '123abc328';"""
 
 
 
@@ -251,7 +282,7 @@ SELECT * FROM CUSTOMER_INFORMATION;
 
 
 connection = create_server_connection("localhost", "root", "student","exotic_dealership")
-results = read_query(connection, display_coupe_models_table)
-execute_query(connection,customer_information)
+results = read_query(connection, display_sedan_models_table)
+execute_query(connection,remove_eighthSedan_vehicle )
 for result in results:
     print(result)
