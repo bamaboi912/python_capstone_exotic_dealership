@@ -38,6 +38,36 @@ def execute_query(connection, query):
 #Queries
 create_database_query = "create database EXOTIC_DEALERSHIP"
 
+#create coupe table
+create_coupe_table = """
+create table COUPE_MODELS(
+vin_number VARCHAR(12) PRIMARY KEY,
+year integer NOT NULL,
+make VARCHAR(50) NOT NULL,
+model VARCHAR(50) NOT NULL,
+mileage integer NOT NULL,
+price integer NOT NULL,
+engine VARCHAR(50) NOT NULL,
+date_of_arrival VARCHAR(50) NOT NULL,
+days_on_the_lot integer NOT NULL);"""
+
+
+#create sedan table
+create_sedan_table = """
+create table SEDAN_MODELS(
+vin_number VARCHAR(12) PRIMARY KEY,
+year integer NOT NULL,
+make VARCHAR(50) NOT NULL,
+model VARCHAR(50) NOT NULL,
+mileage integer NOT NULL,
+price integer NOT NULL,
+engine VARCHAR(50) NOT NULL,
+date_of_arrival VARCHAR(50) NOT NULL,
+days_on_the_lot integer NOT NULL);"""
+
+
+
+
 connection = create_server_connection("localhost", "root", "student","exotic_dealership")
 
-execute_query(connection,create_coupe_table)
+execute_query(connection,create_sedan_table)
