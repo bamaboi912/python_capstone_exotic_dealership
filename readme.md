@@ -18,8 +18,8 @@ manipulating numerical tables and time series.
 ![DB test.png](..%2F..%2F..%2F..%2F..%2FOneDrive%2FDesktop%2FDB%20test.png)
 *insert screenshot of connection
 
-2.)Establish communication from main.py to mysql:
-
+2.)show tables:
+![show tables mysql.png](..%2F..%2F..%2F..%2F..%2FOneDrive%2FDesktop%2Fshow%20tables%20mysql.png)
 *insert screenshot of successful connection.
 
 3.) Created database from main.py
