@@ -19,6 +19,7 @@ manipulating numerical tables and time series.
 
 2.) Created database from main.py
 ![created DB](https://user-images.githubusercontent.com/126184667/225328417-6c8aaa92-a96d-4b0f-9b97-f3e11c5691fd.png)
+![created db2](https://user-images.githubusercontent.com/126184667/225335894-f7a69e22-3a40-4838-8ab5-beb9e92f46c8.png)
 
 3.)show tables:
 ![show tables mysql](https://user-images.githubusercontent.com/126184667/225328080-876a1d30-e486-43ab-9826-85bdae14b07b.png)
