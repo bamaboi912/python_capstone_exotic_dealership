@@ -56,7 +56,7 @@ manipulating numerical tables and time series.
 ![display_sedan_models_tablepic](https://user-images.githubusercontent.com/126184667/225331352-93bf0a0e-062a-48e4-91fd-71fa5d3d5c68.png)
 
 12.)Populate suv table:
-![display_SUV_models_tablepic](https://user-images.githubusercontent.com/126184667/225331778-7932723a-dfcb-480d-b19c-67481053eb83.png)
+![pop suv2](https://user-images.githubusercontent.com/126184667/225340038-2b11ccee-3fe5-44f9-9c09-021ea0875eac.png)
 
 13.)populate truck table for DB:
 ![display_truck_models_tablepic](https://user-images.githubusercontent.com/126184667/225332105-1f20926c-2a68-403a-b3d6-26642f02eb4b.png)
