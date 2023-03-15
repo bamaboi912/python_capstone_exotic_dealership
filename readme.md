@@ -17,13 +17,12 @@ manipulating numerical tables and time series.
 1.) Establish communication from pycharm to msql
 ![DB test](https://user-images.githubusercontent.com/126184667/225327432-a3b3fd37-3c58-4683-b0b2-c8f7e5e2afeb.png)
 
+2.) Created database from main.py
+![created DB](https://user-images.githubusercontent.com/126184667/225328417-6c8aaa92-a96d-4b0f-9b97-f3e11c5691fd.png)
 
-2.)show tables:
+3.)show tables:
 ![show tables mysql](https://user-images.githubusercontent.com/126184667/225328080-876a1d30-e486-43ab-9826-85bdae14b07b.png)
 
-
-3.) Created database from main.py
-![created DB](https://user-images.githubusercontent.com/126184667/225328417-6c8aaa92-a96d-4b0f-9b97-f3e11c5691fd.png)
 
 
 4.)Create coupe table for db:
